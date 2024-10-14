@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #e6c47b; /* Dorado */
+  --primary-color-transparent: rgba(
+    230,
+    196,
+    123,
+    0.8
+  ); /* Dorado con transparencia */
+  --secondary-color: #8b0000; /*Rojo sangre oscura*/
+  --third-color: #333333; /*Negro*/
+  --border-color-bt: #db9d3f; /*Dorado para botones*/
+  --hover-color: rgba(77, 77, 77, 0.5); /* Gris oscuro casi transparente */
+  --font-size: 18px; /* Tamaño de fuente */
+  --font-color: whitesmoke;
+}

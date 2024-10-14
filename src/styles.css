@@ -1,0 +1,272 @@
+/* Imports */
+
+@import url("variables.css");
+
+/* Keyframes */
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.esl h1 {
+  animation: pulse 4s infinite; /* Pulsar indefinidamente */
+}
+
+/* Styles */
+
+body {
+  background-image: url("https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: "Warrior", sans-serif;
+  font-size: var(--font-size);
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.log-reg {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+main {
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  font-size: 5vh;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+main button {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+}
+
+main .start-bt {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+main .esl {
+  display: flex;
+  align-items: center;
+}
+
+main button:hover {
+  background-color: var(--hover-color);
+}
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-bar a {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.nav-bar img {
+  height: auto;
+  width: 80px;
+}
+
+.nav-bar li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li:hover a {
+  color: whitesmoke;
+}
+
+.mirrored-image {
+  transform: scaleX(-1); /* Refleja la imagen horizontalmente */
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px 0;
+  text-align: center; /* Centra el texto */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center;
+  padding: 0 20px; /* Espaciado horizontal */
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media img {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.social-media img:hover {
+  transform: scale(1.1); /* Efecto de hover */
+}
+
+/*Reset CSS*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  margin: 0;
+}
